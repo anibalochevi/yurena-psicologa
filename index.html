@@ -9,22 +9,25 @@
   <link rel="stylesheet" href="assets/css/styles.css" />
   <meta name="theme-color" content="#0b0f17" />
 
-  <!-- (Opcional) Favicon -->
-  <!-- <link rel="icon" href="assets/img/favicon.png" /> -->
+  <!-- Favicon / iconos -->
+  <link rel="icon" href="assets/img/favicon.png" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/img/logo.png" />
 </head>
 
 <body>
   <header class="site-header">
     <div class="wrap header-grid">
       <div class="brand">
-        <div class="logo">YF</div>
+        <div class="logo" aria-label="Logo">
+          <img class="logo-img" src="assets/img/logo.png" alt="Logo de Yurena Fernández" />
+        </div>
         <div class="brand-text">
           <div class="brand-title">Yurena Fernández</div>
           <div class="brand-subtitle">Psicóloga conductual · La Laguna (Tenerife) y online</div>
         </div>
       </div>
 
-      <nav class="header-actions">
+      <nav class="header-actions" aria-label="Navegación">
         <a class="btn ghost" href="#como-trabajo">Cómo trabajo</a>
         <a class="btn ghost" href="#contacto">Contacto</a>
         <a class="btn primary" href="#cita">Reservar cita</a>
@@ -63,14 +66,12 @@
           <ul class="list">
             <li><strong>Teléfono / WhatsApp:</strong> <a href="tel:+34621229422">+34 621 22 94 22</a></li>
             <li><strong>Dirección:</strong> Calle Tango Herreño 15, La Laguna</li>
-            <!-- (Opcional) Email -->
-            <!-- <li><strong>Email:</strong> <a href="mailto:hola@psicologasantacruz.com">hola@psicologasantacruz.com</a></li> -->
           </ul>
 
           <hr class="sep" />
 
           <p class="muted small" style="margin:0">
-            Reserva online: ahora verás una maqueta. Próximamente, reserva automática con Eholo (sin llamadas eternas ni “¿te viene bien a las 19:00?”).
+            Reserva online: ahora verás una maqueta. Próximamente, reserva automática con Eholo (sin llamadas eternas).
           </p>
         </aside>
       </div>
@@ -224,8 +225,6 @@
             <div class="contact-box" style="display:grid; gap:10px;">
               <a class="btn primary full" href="https://wa.me/34621229422" target="_blank" rel="noopener">WhatsApp</a>
               <a class="btn full" href="tel:+34621229422">Llamar</a>
-              <!-- (Opcional) Email -->
-              <!-- <a class="btn ghost full" href="mailto:hola@psicologasantacruz.com">Enviar email</a> -->
             </div>
 
             <hr class="sep" />
